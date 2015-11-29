@@ -15,6 +15,7 @@
 		4D0B98951C0532580078E483 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D0B98941C0532580078E483 /* Assets.xcassets */; };
 		4D0B98981C0532580078E483 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D0B98961C0532580078E483 /* LaunchScreen.storyboard */; };
 		4D0B98A31C0532580078E483 /* MyClassroomUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0B98A21C0532580078E483 /* MyClassroomUITests.m */; };
+		4D9429AA1C0A32B100DA5DE3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D9429A91C0A32B100DA5DE3 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		4D0B989E1C0532580078E483 /* MyClassroomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyClassroomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D0B98A21C0532580078E483 /* MyClassroomUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyClassroomUITests.m; sourceTree = "<group>"; };
 		4D0B98A41C0532580078E483 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D9429A91C0A32B100DA5DE3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D9429AA1C0A32B100DA5DE3 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +68,7 @@
 		4D0B98791C0532580078E483 = {
 			isa = PBXGroup;
 			children = (
+				4D9429A91C0A32B100DA5DE3 /* MapKit.framework */,
 				4D0B98841C0532580078E483 /* MyClassroom */,
 				4D0B98A11C0532580078E483 /* MyClassroomUITests */,
 				4D0B98831C0532580078E483 /* Products */,
@@ -164,6 +168,11 @@
 					4D0B98811C0532580078E483 = {
 						CreatedOnToolsVersion = 7.1.1;
 						DevelopmentTeam = YB63A2CSF6;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					4D0B989D1C0532580078E483 = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -408,6 +417,7 @@
 				4D0B98A91C0532580078E483 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D0B98AA1C0532580078E483 /* Build configuration list for PBXNativeTarget "MyClassroomUITests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +426,7 @@
 				4D0B98AC1C0532580078E483 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
