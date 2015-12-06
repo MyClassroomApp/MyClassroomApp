@@ -17,6 +17,7 @@
 		4D0B98A31C0532580078E483 /* MyClassroomUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0B98A21C0532580078E483 /* MyClassroomUITests.m */; };
 		4D9429AA1C0A32B100DA5DE3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D9429A91C0A32B100DA5DE3 /* MapKit.framework */; };
 		6F8550991C14D64A00457B02 /* information-icon-md.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F8550981C14D64A00457B02 /* information-icon-md.png */; settings = {ASSET_TAGS = (); }; };
+		6F85509C1C14DC6600457B02 /* SchoolWebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F85509B1C14DC6600457B02 /* SchoolWebViewViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		4D0B98A41C0532580078E483 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D9429A91C0A32B100DA5DE3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		6F8550981C14D64A00457B02 /* information-icon-md.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "information-icon-md.png"; path = "../../information-icon-md.png"; sourceTree = "<group>"; };
+		6F85509A1C14DC6600457B02 /* SchoolWebViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoolWebViewViewController.h; sourceTree = "<group>"; };
+		6F85509B1C14DC6600457B02 /* SchoolWebViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoolWebViewViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +73,8 @@
 		4D0B98791C0532580078E483 = {
 			isa = PBXGroup;
 			children = (
+				6F85509A1C14DC6600457B02 /* SchoolWebViewViewController.h */,
+				6F85509B1C14DC6600457B02 /* SchoolWebViewViewController.m */,
 				4D9429A91C0A32B100DA5DE3 /* MapKit.framework */,
 				4D0B98841C0532580078E483 /* MyClassroom */,
 				4D0B98A11C0532580078E483 /* MyClassroomUITests */,
@@ -232,6 +237,7 @@
 				4D0B988D1C0532580078E483 /* ViewController.m in Sources */,
 				4D0B98931C0532580078E483 /* MyClassroom.xcdatamodeld in Sources */,
 				4D0B988A1C0532580078E483 /* AppDelegate.m in Sources */,
+				6F85509C1C14DC6600457B02 /* SchoolWebViewViewController.m in Sources */,
 				4D0B98871C0532580078E483 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

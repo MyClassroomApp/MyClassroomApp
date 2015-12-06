@@ -10,12 +10,15 @@
 
 @interface ViewController ()
 
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *infiIcon;
+
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self.infiIcon setImage:[UIImage imageNamed:@"information-icon-md"]];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
