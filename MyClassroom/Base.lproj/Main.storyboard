@@ -99,7 +99,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2614" y="-2134"/>
+            <point key="canvasLocation" x="-2606" y="-2038"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="eXG-AM-blI">
@@ -325,7 +325,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nqx-Tv-p1I" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1888" y="-1722"/>
+            <point key="canvasLocation" x="-1888" y="-1626"/>
         </scene>
         <!--SplitView-->
         <scene sceneID="tPR-4T-kgR">
@@ -340,7 +340,7 @@
                 </splitViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wOx-oD-hhr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-855" y="-1082"/>
+            <point key="canvasLocation" x="-839" y="-1090"/>
         </scene>
         <!--Master-->
         <scene sceneID="YXH-fB-wAC">

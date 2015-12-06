@@ -18,6 +18,12 @@
 		4D9429AA1C0A32B100DA5DE3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D9429A91C0A32B100DA5DE3 /* MapKit.framework */; };
 		6F8550991C14D64A00457B02 /* information-icon-md.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F8550981C14D64A00457B02 /* information-icon-md.png */; settings = {ASSET_TAGS = (); }; };
 		6F85509C1C14DC6600457B02 /* SchoolWebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F85509B1C14DC6600457B02 /* SchoolWebViewViewController.m */; settings = {ASSET_TAGS = (); }; };
+		6F8550A91C14F57000457B02 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F85509E1C14F57000457B02 /* DetailViewController.m */; settings = {ASSET_TAGS = (); }; };
+		6F8550AA1C14F57000457B02 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8550A01C14F57000457B02 /* MasterViewController.m */; settings = {ASSET_TAGS = (); }; };
+		6F8550AB1C14F57000457B02 /* VJSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8550A21C14F57000457B02 /* VJSplitViewController.m */; settings = {ASSET_TAGS = (); }; };
+		6F8550AC1C14F57000457B02 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8550A41C14F57000457B02 /* FirstViewController.m */; settings = {ASSET_TAGS = (); }; };
+		6F8550AD1C14F57000457B02 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8550A61C14F57000457B02 /* SecondViewController.m */; settings = {ASSET_TAGS = (); }; };
+		6F8550AE1C14F57000457B02 /* VJTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8550A81C14F57000457B02 /* VJTabBarController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,18 @@
 		6F8550981C14D64A00457B02 /* information-icon-md.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "information-icon-md.png"; path = "../../information-icon-md.png"; sourceTree = "<group>"; };
 		6F85509A1C14DC6600457B02 /* SchoolWebViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoolWebViewViewController.h; sourceTree = "<group>"; };
 		6F85509B1C14DC6600457B02 /* SchoolWebViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoolWebViewViewController.m; sourceTree = "<group>"; };
+		6F85509D1C14F57000457B02 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = "../../../Downloads/VJTabSplitViewController-master/VJTabSplitViewController/DetailViewController.h"; sourceTree = "<group>"; };
+		6F85509E1C14F57000457B02 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = "../../../Downloads/VJTabSplitViewController-master/VJTabSplitViewController/DetailViewController.m"; sourceTree = "<group>"; };
+		6F85509F1C14F57000457B02 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MasterViewController.h; path = "../../../Downloads/VJTabSplitViewController-master/VJTabSplitViewController/MasterViewController.h"; sourceTree = "<group>"; };
+		6F8550A01C14F57000457B02 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MasterViewController.m; path = "../../../Downloads/VJTabSplitViewController-master/VJTabSplitViewController/MasterViewController.m"; sourceTree = "<group>"; };
+		6F8550A11C14F57000457B02 /* VJSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VJSplitViewController.h; path = "../../../Downloads/VJTabSplitViewController-master/VJTabSplitViewController/VJSplitViewController.h"; sourceTree = "<group>"; };
+		6F8550A21C14F57000457B02 /* VJSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VJSplitViewController.m; path = "../../../Downloads/VJTabSplitViewController-master/VJTabSplitViewController/VJSplitViewController.m"; sourceTree = "<group>"; };
+		6F8550A31C14F57000457B02 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstViewController.h; path = "../../../Downloads/VJTabSplitViewController-master/VJTabSplitViewController/FirstViewController.h"; sourceTree = "<group>"; };
+		6F8550A41C14F57000457B02 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirstViewController.m; path = "../../../Downloads/VJTabSplitViewController-master/VJTabSplitViewController/FirstViewController.m"; sourceTree = "<group>"; };
+		6F8550A51C14F57000457B02 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondViewController.h; path = "../../../Downloads/VJTabSplitViewController-master/VJTabSplitViewController/SecondViewController.h"; sourceTree = "<group>"; };
+		6F8550A61C14F57000457B02 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondViewController.m; path = "../../../Downloads/VJTabSplitViewController-master/VJTabSplitViewController/SecondViewController.m"; sourceTree = "<group>"; };
+		6F8550A71C14F57000457B02 /* VJTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VJTabBarController.h; path = "../../../Downloads/VJTabSplitViewController-master/VJTabSplitViewController/VJTabBarController.h"; sourceTree = "<group>"; };
+		6F8550A81C14F57000457B02 /* VJTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VJTabBarController.m; path = "../../../Downloads/VJTabSplitViewController-master/VJTabSplitViewController/VJTabBarController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +117,18 @@
 				4D0B988B1C0532580078E483 /* ViewController.h */,
 				4D0B988C1C0532580078E483 /* ViewController.m */,
 				4D0B988E1C0532580078E483 /* Main.storyboard */,
+				6F85509D1C14F57000457B02 /* DetailViewController.h */,
+				6F85509E1C14F57000457B02 /* DetailViewController.m */,
+				6F85509F1C14F57000457B02 /* MasterViewController.h */,
+				6F8550A01C14F57000457B02 /* MasterViewController.m */,
+				6F8550A11C14F57000457B02 /* VJSplitViewController.h */,
+				6F8550A21C14F57000457B02 /* VJSplitViewController.m */,
+				6F8550A31C14F57000457B02 /* FirstViewController.h */,
+				6F8550A41C14F57000457B02 /* FirstViewController.m */,
+				6F8550A51C14F57000457B02 /* SecondViewController.h */,
+				6F8550A61C14F57000457B02 /* SecondViewController.m */,
+				6F8550A71C14F57000457B02 /* VJTabBarController.h */,
+				6F8550A81C14F57000457B02 /* VJTabBarController.m */,
 				6F8550981C14D64A00457B02 /* information-icon-md.png */,
 				4D0B98941C0532580078E483 /* Assets.xcassets */,
 				4D0B98961C0532580078E483 /* LaunchScreen.storyboard */,
@@ -234,11 +264,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F8550AD1C14F57000457B02 /* SecondViewController.m in Sources */,
 				4D0B988D1C0532580078E483 /* ViewController.m in Sources */,
+				6F8550AC1C14F57000457B02 /* FirstViewController.m in Sources */,
+				6F8550AE1C14F57000457B02 /* VJTabBarController.m in Sources */,
 				4D0B98931C0532580078E483 /* MyClassroom.xcdatamodeld in Sources */,
 				4D0B988A1C0532580078E483 /* AppDelegate.m in Sources */,
 				6F85509C1C14DC6600457B02 /* SchoolWebViewViewController.m in Sources */,
 				4D0B98871C0532580078E483 /* main.m in Sources */,
+				6F8550AB1C14F57000457B02 /* VJSplitViewController.m in Sources */,
+				6F8550A91C14F57000457B02 /* DetailViewController.m in Sources */,
+				6F8550AA1C14F57000457B02 /* MasterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
