@@ -16,6 +16,7 @@
 		4D0B98981C0532580078E483 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D0B98961C0532580078E483 /* LaunchScreen.storyboard */; };
 		4D0B98A31C0532580078E483 /* MyClassroomUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0B98A21C0532580078E483 /* MyClassroomUITests.m */; };
 		4D9429AA1C0A32B100DA5DE3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D9429A91C0A32B100DA5DE3 /* MapKit.framework */; };
+		6F8550991C14D64A00457B02 /* information-icon-md.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F8550981C14D64A00457B02 /* information-icon-md.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		4D0B98A21C0532580078E483 /* MyClassroomUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyClassroomUITests.m; sourceTree = "<group>"; };
 		4D0B98A41C0532580078E483 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D9429A91C0A32B100DA5DE3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		6F8550981C14D64A00457B02 /* information-icon-md.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "information-icon-md.png"; path = "../../information-icon-md.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				4D0B988B1C0532580078E483 /* ViewController.h */,
 				4D0B988C1C0532580078E483 /* ViewController.m */,
 				4D0B988E1C0532580078E483 /* Main.storyboard */,
+				6F8550981C14D64A00457B02 /* information-icon-md.png */,
 				4D0B98941C0532580078E483 /* Assets.xcassets */,
 				4D0B98961C0532580078E483 /* LaunchScreen.storyboard */,
 				4D0B98991C0532580078E483 /* Info.plist */,
@@ -205,6 +208,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F8550991C14D64A00457B02 /* information-icon-md.png in Resources */,
 				4D0B98981C0532580078E483 /* LaunchScreen.storyboard in Resources */,
 				4D0B98951C0532580078E483 /* Assets.xcassets in Resources */,
 				4D0B98901C0532580078E483 /* Main.storyboard in Resources */,
@@ -357,6 +361,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyClassroom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HAlmushaigh.MyClassroom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -368,6 +373,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyClassroom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HAlmushaigh.MyClassroom;
 				PRODUCT_NAME = "$(TARGET_NAME)";

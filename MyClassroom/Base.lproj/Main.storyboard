@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
     <scenes>
-        <!--Title-->
+        <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
@@ -38,21 +38,6 @@
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nmy-Cz-Q7q">
-                                <rect key="frame" x="10" y="23" width="27" height="26"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Log In" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ckH-sw-3AO">
-                                <rect key="frame" x="277" y="28" width="54" height="21"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Log On" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s8O-yR-eHf">
-                                <rect key="frame" x="532" y="28" width="60" height="21"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <color key="textColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Forgot User ID or Password?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WXc-2U-urf">
                                 <rect key="frame" x="222" y="415" width="156" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="11"/>
@@ -84,6 +69,15 @@
                                     <color key="titleColor" red="1" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kkP-jp-GDp">
+                                <rect key="frame" x="-8" y="0.0" width="608" height="44"/>
+                                <items>
+                                    <navigationItem title="Log in" id="8ny-TE-A1P">
+                                        <barButtonItem key="leftBarButtonItem" image="information-icon-md.png" id="PDJ-Kx-1ec"/>
+                                        <barButtonItem key="rightBarButtonItem" title="Log on" id="WqL-Ig-Moj"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -91,11 +85,10 @@
                             <accessibilityTraits key="traits" button="YES"/>
                         </accessibility>
                     </view>
-                    <navigationItem key="navigationItem" title="Title" id="sF8-RQ-xYA"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="305" y="399"/>
+            <point key="canvasLocation" x="1124" y="452"/>
         </scene>
         <!--Title-->
         <scene sceneID="MF2-gW-rNW">
@@ -119,7 +112,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w3E-9k-uDj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="305" y="1070"/>
+            <point key="canvasLocation" x="1117" y="1070"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="information-icon-md.png" width="44" height="44"/>
+    </resources>
+    <color key="tintColor" red="0.96862745098039216" green="0.49803921568627452" blue="0.12549019607843137" alpha="1" colorSpace="calibratedRGB"/>
 </document>
