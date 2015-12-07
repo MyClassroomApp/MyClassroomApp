@@ -9,6 +9,7 @@
 #import "SchoolWebViewViewController.h"
 
 @interface SchoolWebViewViewController ()
+@property (weak, nonatomic) IBOutlet UIWebView *viewWeb;
 
 @end
 
@@ -16,6 +17,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSString *fullURL = @"http://www.prep-villa.com";
+    NSURL *url = [NSURL URLWithString:fullURL];
+    NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
+    [_viewWeb loadRequest:requestObj];
     // Do any additional setup after loading the view.
 }
 

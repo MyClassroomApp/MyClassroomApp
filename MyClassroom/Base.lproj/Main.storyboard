@@ -142,10 +142,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="Pwb-aN-NKP"/>
+                    <connections>
+                        <outlet property="viewWeb" destination="T8v-9H-1WT" id="4oQ-8r-t10"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="999-Cu-Wae" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2527" y="-4255"/>
+            <point key="canvasLocation" x="-3085" y="-4313"/>
         </scene>
         <!--First-->
         <scene sceneID="2VL-LG-5Ri">
