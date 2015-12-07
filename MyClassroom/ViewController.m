@@ -10,7 +10,7 @@
 
 @interface ViewController ()
 
-@property (weak, nonatomic) IBOutlet UIBarButtonItem *infiIcon;
+@property UIBarButtonItem *infiIcon;
 
 @end
 
@@ -18,7 +18,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self.infiIcon setImage:[UIImage imageNamed:@"information-icon-md"]];
+    
+//    self.infiIcon = [[UIBarButtonItem alloc]init];
+//    [self.infiIcon setImage:[UIImage imageNamed:@"information-icon-md"]];
+//    self.navigationItem.leftBarButtonItem = self.infiIcon;
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 

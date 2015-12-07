@@ -9,11 +9,13 @@
 #import "SchoolWebViewViewController.h"
 
 @interface SchoolWebViewViewController ()
-//@property (weak, nonatomic) IBOutlet UIWebView *viewWeb;
+//@property UIBarButtonItem *backButton; //(weak, nonatomic) IBOutlet UIWebView *viewWeb;
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *backButton;
 
 @end
 
 @implementation SchoolWebViewViewController
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -22,7 +24,17 @@
     NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
     [_viewWeb loadRequest:requestObj];
     [self.view addSubview:_viewWeb];
+    
+//    UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Back" style: UIBarButtonItemStylePlain target:self action:nil];
+//    self.navigationItem.leftBarButtonItem = backButton;
+    self.backButton = [[UIBarButtonItem alloc] initWithTitle:@"Back" style: UIBarButtonItemStylePlain target:self action:@selector(Back)];
+    self.navigationItem.leftBarButtonItem = self.backButton;
+    
     // Do any additional setup after loading the view.
+}
+- (IBAction)Back
+{
+    [self dismissViewControllerAnimated:YES completion:nil]; // ios 6
 }
 
 - (void)didReceiveMemoryWarning {
