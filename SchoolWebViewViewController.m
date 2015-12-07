@@ -9,7 +9,7 @@
 #import "SchoolWebViewViewController.h"
 
 @interface SchoolWebViewViewController ()
-@property (weak, nonatomic) IBOutlet UIWebView *viewWeb;
+//@property (weak, nonatomic) IBOutlet UIWebView *viewWeb;
 
 @end
 
@@ -21,6 +21,7 @@
     NSURL *url = [NSURL URLWithString:fullURL];
     NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
     [_viewWeb loadRequest:requestObj];
+    [self.view addSubview:_viewWeb];
     // Do any additional setup after loading the view.
 }
 

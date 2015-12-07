@@ -136,6 +136,9 @@
                                 <rect key="frame" x="0.0" y="44" width="600" height="556"/>
                                 <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="delegate" destination="Vhv-En-EaE" id="a1j-dy-g8B"/>
+                                </connections>
                             </webView>
                         </subviews>
                         <animations/>
@@ -143,7 +146,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="Pwb-aN-NKP"/>
                     <connections>
-                        <outlet property="viewWeb" destination="T8v-9H-1WT" id="4oQ-8r-t10"/>
+                        <outlet property="viewWeb" destination="T8v-9H-1WT" id="N7T-11-gMT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="999-Cu-Wae" userLabel="First Responder" sceneMemberID="firstResponder"/>
