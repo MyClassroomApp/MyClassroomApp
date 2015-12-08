@@ -7,10 +7,16 @@
 //
 
 #import "DetailViewController.h"
-
+#import "MapViewController.h"
+#import "RoomListViewController.h"
 @interface DetailViewController ()
 @property (strong, nonatomic) UIPopoverPresentationController *masterPopoverController;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *mySegmentedControl;
 - (void)configureView;
+@property (strong, nonatomic) MapViewController *mapViewController;
+
+@property (strong, nonatomic) RoomListViewController* roomListViewController;
+
 @end
 
 @implementation DetailViewController
@@ -61,6 +67,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     [self configureView];
+    [self.mySegmentedControl addTarget:self
+                                action:@selector(mySegmentedControlAction:)
+                      forControlEvents:UIControlEventValueChanged];
 }
 
 
@@ -84,6 +93,19 @@
     // Called when the view is shown again in the split view, invalidating the button and popover controller.
     [self.navigationItem setLeftBarButtonItem:nil animated:YES];
     self.masterPopoverController = nil;
+}
+
+- (IBAction)mySegmentedControlAction:(id)sender {
+    switch (self.mySegmentedControl.selectedSegmentIndex) {
+        case 0:
+            self.mapViewController = [[MapViewController alloc ]init];
+            [self.view addSubview:self.mapViewController.view];
+            break;
+        case 1:
+            self.roomListViewController = [[RoomListViewController alloc ]init];
+            [self.view addSubview:self.roomListViewController.view];
+            break;
+    }
 }
 
 

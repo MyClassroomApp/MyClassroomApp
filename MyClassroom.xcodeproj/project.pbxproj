@@ -15,11 +15,13 @@
 		4D0B98951C0532580078E483 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D0B98941C0532580078E483 /* Assets.xcassets */; };
 		4D0B98981C0532580078E483 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D0B98961C0532580078E483 /* LaunchScreen.storyboard */; };
 		4D0B98A31C0532580078E483 /* MyClassroomUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0B98A21C0532580078E483 /* MyClassroomUITests.m */; };
+		4D6E2CC01C16A11C0019BE51 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6E2CBF1C16A11C0019BE51 /* MapViewController.m */; };
+		4D6E2CC31C16A40D0019BE51 /* RoomListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6E2CC21C16A40D0019BE51 /* RoomListViewController.m */; };
 		4D9429AA1C0A32B100DA5DE3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D9429A91C0A32B100DA5DE3 /* MapKit.framework */; };
 		6F85509C1C14DC6600457B02 /* SchoolWebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F85509B1C14DC6600457B02 /* SchoolWebViewViewController.m */; };
-		6F8F47E01C165689008D39EB /* paper-plane-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F8F47DF1C165689008D39EB /* paper-plane-7.png */; settings = {ASSET_TAGS = (); }; };
-		6F8F47E21C1656CA008D39EB /* book-cover-tick-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F8F47E11C1656CA008D39EB /* book-cover-tick-7.png */; settings = {ASSET_TAGS = (); }; };
-		6F8F47E51C165C2E008D39EB /* VJTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8F47E41C165C2E008D39EB /* VJTabBarController.m */; settings = {ASSET_TAGS = (); }; };
+		6F8F47E01C165689008D39EB /* paper-plane-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F8F47DF1C165689008D39EB /* paper-plane-7.png */; };
+		6F8F47E21C1656CA008D39EB /* book-cover-tick-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F8F47E11C1656CA008D39EB /* book-cover-tick-7.png */; };
+		6F8F47E51C165C2E008D39EB /* VJTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8F47E41C165C2E008D39EB /* VJTabBarController.m */; };
 		F412380D1C152D020040C85A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F412380C1C152D020040C85A /* DetailViewController.m */; };
 		F41238101C152D610040C85A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F412380F1C152D610040C85A /* FirstViewController.m */; };
 		F41238131C152D9B0040C85A /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F41238121C152D9B0040C85A /* MasterViewController.m */; };
@@ -52,6 +54,10 @@
 		4D0B989E1C0532580078E483 /* MyClassroomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyClassroomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D0B98A21C0532580078E483 /* MyClassroomUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyClassroomUITests.m; sourceTree = "<group>"; };
 		4D0B98A41C0532580078E483 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D6E2CBE1C16A11C0019BE51 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		4D6E2CBF1C16A11C0019BE51 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		4D6E2CC11C16A40D0019BE51 /* RoomListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomListViewController.h; sourceTree = "<group>"; };
+		4D6E2CC21C16A40D0019BE51 /* RoomListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoomListViewController.m; sourceTree = "<group>"; };
 		4D9429A91C0A32B100DA5DE3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		6F85509A1C14DC6600457B02 /* SchoolWebViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoolWebViewViewController.h; sourceTree = "<group>"; };
 		6F85509B1C14DC6600457B02 /* SchoolWebViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoolWebViewViewController.m; sourceTree = "<group>"; };
@@ -92,6 +98,10 @@
 		4D0B98791C0532580078E483 = {
 			isa = PBXGroup;
 			children = (
+				4D6E2CC11C16A40D0019BE51 /* RoomListViewController.h */,
+				4D6E2CC21C16A40D0019BE51 /* RoomListViewController.m */,
+				4D6E2CBE1C16A11C0019BE51 /* MapViewController.h */,
+				4D6E2CBF1C16A11C0019BE51 /* MapViewController.m */,
 				F41238141C152E110040C85A /* VJSplitViewController.h */,
 				F41238151C152E110040C85A /* VJSplitViewController.m */,
 				F41238111C152D9B0040C85A /* MasterViewController.h */,
@@ -274,9 +284,11 @@
 				4D0B988A1C0532580078E483 /* AppDelegate.m in Sources */,
 				F41238131C152D9B0040C85A /* MasterViewController.m in Sources */,
 				6F85509C1C14DC6600457B02 /* SchoolWebViewViewController.m in Sources */,
+				4D6E2CC31C16A40D0019BE51 /* RoomListViewController.m in Sources */,
 				4D0B98871C0532580078E483 /* main.m in Sources */,
 				F412380D1C152D020040C85A /* DetailViewController.m in Sources */,
 				6F8F47E51C165C2E008D39EB /* VJTabBarController.m in Sources */,
+				4D6E2CC01C16A11C0019BE51 /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
