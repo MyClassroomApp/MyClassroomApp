@@ -24,7 +24,7 @@
     //[self.mapImage setImage:[UIImage imageNamed:@"ColoredMap.png"]];
 //    
 //    UIImage *image = [[UIImage alloc] init];
-//    image = [UIImage imageNamed: @"ColoredMap"];
+//    image = [UIImage imageNamed: @"ColoredMap.jpg"];
 //    self.mapImage = [[UIImageView alloc] initWithImage:image];
 //    
 //    image = [UIImage imageNamed: @"ColoredMap"];
@@ -33,10 +33,11 @@
     
     
     
-   // self.mapImage = initWithFrame:CGRectMake(10, 10, 300, 400)];
-    [self.mapImage setImage:[UIImage imageNamed:@"ColoredMap.png"]];
-    [self.mapImage setContentMode:UIViewContentModeScaleAspectFit];
-    [self.view addSubview:self.mapImage];
+    UIImageView *imgview = [[UIImageView alloc]
+                            initWithFrame:CGRectMake(10, 10, 300, 400)];
+    [imgview setImage:[UIImage imageNamed:@"ColoredMap.jpg"]];
+    [imgview setContentMode:UIViewContentModeScaleAspectFit];
+    [self.view addSubview:imgview];
     
     
 }
