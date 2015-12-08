@@ -34,7 +34,7 @@
     
     
     UIImageView *imgview = [[UIImageView alloc]
-                            initWithFrame:CGRectMake(10, 10, 300, 400)];
+                            initWithFrame:CGRectMake(0, 0, 700, 700)];
     [imgview setImage:[UIImage imageNamed:@"ColoredMap.jpg"]];
     [imgview setContentMode:UIViewContentModeScaleAspectFit];
     [self.view addSubview:imgview];
