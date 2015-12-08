@@ -20,7 +20,7 @@
     [super viewDidLoad];
     
 //    self.infiIcon = [[UIBarButtonItem alloc]init];
-//    [self.infiIcon setImage:[UIImage imageNamed:@"information-icon-md"]];
+//    [self.infiIcon setImage:[UIImage imageNamed:@"information-icon-md.png"]];
 //    self.navigationItem.leftBarButtonItem = self.infiIcon;
     
     // Do any additional setup after loading the view, typically from a nib.
