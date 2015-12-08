@@ -17,6 +17,28 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    //UIImage *image = [[UIImage alloc] init];
+    //self.mapImage = [[UIImageView alloc] init];
+    
+    //[self.mapImage setImage:[UIImage imageNamed:@"ColoredMap.png"]];
+//    
+//    UIImage *image = [[UIImage alloc] init];
+//    image = [UIImage imageNamed: @"ColoredMap"];
+//    self.mapImage = [[UIImageView alloc] initWithImage:image];
+//    
+//    image = [UIImage imageNamed: @"ColoredMap"];
+//    [self.mapImage setImage:image];
+    
+    
+    
+    
+   // self.mapImage = initWithFrame:CGRectMake(10, 10, 300, 400)];
+    [self.mapImage setImage:[UIImage imageNamed:@"ColoredMap.png"]];
+    [self.mapImage setContentMode:UIViewContentModeScaleAspectFit];
+    [self.view addSubview:self.mapImage];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {

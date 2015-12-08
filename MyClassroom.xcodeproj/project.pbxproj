@@ -22,6 +22,8 @@
 		6F8F47E01C165689008D39EB /* paper-plane-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F8F47DF1C165689008D39EB /* paper-plane-7.png */; };
 		6F8F47E21C1656CA008D39EB /* book-cover-tick-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F8F47E11C1656CA008D39EB /* book-cover-tick-7.png */; };
 		6F8F47E51C165C2E008D39EB /* VJTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8F47E41C165C2E008D39EB /* VJTabBarController.m */; };
+		6FF6A1A91C1750A6003F92EA /* ColoredMap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6FF6A1A71C1750A6003F92EA /* ColoredMap.jpg */; settings = {ASSET_TAGS = (); }; };
+		6FF6A1AA1C1750A6003F92EA /* Map.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6FF6A1A81C1750A6003F92EA /* Map.jpg */; settings = {ASSET_TAGS = (); }; };
 		F412380D1C152D020040C85A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F412380C1C152D020040C85A /* DetailViewController.m */; };
 		F41238101C152D610040C85A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F412380F1C152D610040C85A /* FirstViewController.m */; };
 		F41238131C152D9B0040C85A /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F41238121C152D9B0040C85A /* MasterViewController.m */; };
@@ -65,6 +67,8 @@
 		6F8F47E11C1656CA008D39EB /* book-cover-tick-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "book-cover-tick-7.png"; sourceTree = "<group>"; };
 		6F8F47E31C165C2E008D39EB /* VJTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VJTabBarController.h; sourceTree = "<group>"; };
 		6F8F47E41C165C2E008D39EB /* VJTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VJTabBarController.m; sourceTree = "<group>"; };
+		6FF6A1A71C1750A6003F92EA /* ColoredMap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ColoredMap.jpg; sourceTree = "<group>"; };
+		6FF6A1A81C1750A6003F92EA /* Map.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Map.jpg; sourceTree = "<group>"; };
 		F412380B1C152D020040C85A /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		F412380C1C152D020040C85A /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		F412380E1C152D610040C85A /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
@@ -141,6 +145,8 @@
 				6F8F47E11C1656CA008D39EB /* book-cover-tick-7.png */,
 				6F8F47DF1C165689008D39EB /* paper-plane-7.png */,
 				F41238171C1530C80040C85A /* information-icon-md.png */,
+				6FF6A1A71C1750A6003F92EA /* ColoredMap.jpg */,
+				6FF6A1A81C1750A6003F92EA /* Map.jpg */,
 				4D0B98941C0532580078E483 /* Assets.xcassets */,
 				4D0B98961C0532580078E483 /* LaunchScreen.storyboard */,
 				4D0B98991C0532580078E483 /* Info.plist */,
@@ -256,7 +262,9 @@
 			files = (
 				F41238181C1530C80040C85A /* information-icon-md.png in Resources */,
 				4D0B98981C0532580078E483 /* LaunchScreen.storyboard in Resources */,
+				6FF6A1A91C1750A6003F92EA /* ColoredMap.jpg in Resources */,
 				4D0B98951C0532580078E483 /* Assets.xcassets in Resources */,
+				6FF6A1AA1C1750A6003F92EA /* Map.jpg in Resources */,
 				6F8F47E21C1656CA008D39EB /* book-cover-tick-7.png in Resources */,
 				6F8F47E01C165689008D39EB /* paper-plane-7.png in Resources */,
 				4D0B98901C0532580078E483 /* Main.storyboard in Resources */,

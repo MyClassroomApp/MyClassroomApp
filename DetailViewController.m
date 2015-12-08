@@ -16,6 +16,7 @@
 @property (strong, nonatomic) MapViewController *mapViewController;
 
 @property (strong, nonatomic) RoomListViewController* roomListViewController;
+@property (weak, nonatomic) IBOutlet UIView *subViewofView;
 
 @end
 
@@ -70,6 +71,9 @@
     [self.mySegmentedControl addTarget:self
                                 action:@selector(mySegmentedControlAction:)
                       forControlEvents:UIControlEventValueChanged];
+    self.mapViewController = [[MapViewController alloc ]init];
+    self.roomListViewController = [[RoomListViewController alloc ]init];
+    [self.subViewofView addSubview:self.roomListViewController.view];
 }
 
 
@@ -98,12 +102,12 @@
 - (IBAction)mySegmentedControlAction:(id)sender {
     switch (self.mySegmentedControl.selectedSegmentIndex) {
         case 0:
-            self.mapViewController = [[MapViewController alloc ]init];
-            [self.view addSubview:self.mapViewController.view];
+            [self.mapViewController.view removeFromSuperview];
+            [self.subViewofView addSubview:self.roomListViewController.view];
             break;
         case 1:
-            self.roomListViewController = [[RoomListViewController alloc ]init];
-            [self.view addSubview:self.roomListViewController.view];
+            [self.roomListViewController.view removeFromSuperview];
+            [self.subViewofView addSubview:self.mapViewController.view];
             break;
     }
 }
