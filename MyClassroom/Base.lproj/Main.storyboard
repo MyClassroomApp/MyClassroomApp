@@ -178,7 +178,7 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="First" image="first" id="o2t-WO-Q3q"/>
+                    <tabBarItem key="tabBarItem" title="First" image="book-cover-tick-7.png" id="o2t-WO-Q3q"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JBU-Kx-s5y" sceneMemberID="firstResponder"/>
             </objects>
@@ -209,7 +209,7 @@
         <scene sceneID="tPR-4T-kgR">
             <objects>
                 <splitViewController id="wIe-wJ-Yms" customClass="VJSplitViewController" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="SplitView" id="e5L-F0-enN"/>
+                    <tabBarItem key="tabBarItem" title="SplitView" image="paper-plane-7.png" id="e5L-F0-enN"/>
                     <toolbarItems/>
                     <connections>
                         <segue destination="wED-CR-57V" kind="relationship" relationship="detailViewController" id="OAI-Nh-o5c"/>
@@ -287,6 +287,13 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="0UK-hR-1kl">
+                                <rect key="frame" x="20" y="72" width="728" height="29"/>
+                                <segments>
+                                    <segment title="Room List"/>
+                                    <segment title="Map View"/>
+                                </segments>
+                            </segmentedControl>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -359,8 +366,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="first" width="16" height="16"/>
+        <image name="book-cover-tick-7.png" width="30" height="30"/>
         <image name="information-icon-md.png" width="44" height="44"/>
+        <image name="paper-plane-7.png" width="30" height="30"/>
     </resources>
     <color key="tintColor" red="0.96862745098039216" green="0.49803921568627452" blue="0.12549019607843137" alpha="1" colorSpace="calibratedRGB"/>
 </document>

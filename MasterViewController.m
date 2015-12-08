@@ -17,13 +17,6 @@
 
 @synthesize detailViewController = _detailViewController;
 
-//- (void)awakeFromNib
-//{
-//    self.clearsSelectionOnViewWillAppear = NO;
-//    self.contentSizeForViewInPopover = CGSizeMake(320.0, 600.0);
-//    [super awakeFromNib];
-//}
-
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -73,14 +66,15 @@
     return YES;
 }
 
-/*
+
  // Override to support conditional editing of the table view.
  - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
  {
  // Return NO if you do not want the specified item to be editable.
- return YES;
+     
+ return NO;
  }
- */
+
 
 /*
  // Override to support editing the table view.
@@ -109,5 +103,17 @@
  // Return NO if you do not want the item to be re-orderable.
  return YES;
  }
+
  */
+//
+//-(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
+//    return 1;
+//}
+//
+//-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+//{
+//    return 4;
+//}
+
+
 @end

@@ -17,6 +17,9 @@
 		4D0B98A31C0532580078E483 /* MyClassroomUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0B98A21C0532580078E483 /* MyClassroomUITests.m */; };
 		4D9429AA1C0A32B100DA5DE3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D9429A91C0A32B100DA5DE3 /* MapKit.framework */; };
 		6F85509C1C14DC6600457B02 /* SchoolWebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F85509B1C14DC6600457B02 /* SchoolWebViewViewController.m */; };
+		6F8F47E01C165689008D39EB /* paper-plane-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F8F47DF1C165689008D39EB /* paper-plane-7.png */; settings = {ASSET_TAGS = (); }; };
+		6F8F47E21C1656CA008D39EB /* book-cover-tick-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F8F47E11C1656CA008D39EB /* book-cover-tick-7.png */; settings = {ASSET_TAGS = (); }; };
+		6F8F47E51C165C2E008D39EB /* VJTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8F47E41C165C2E008D39EB /* VJTabBarController.m */; settings = {ASSET_TAGS = (); }; };
 		F412380D1C152D020040C85A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F412380C1C152D020040C85A /* DetailViewController.m */; };
 		F41238101C152D610040C85A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F412380F1C152D610040C85A /* FirstViewController.m */; };
 		F41238131C152D9B0040C85A /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F41238121C152D9B0040C85A /* MasterViewController.m */; };
@@ -52,6 +55,10 @@
 		4D9429A91C0A32B100DA5DE3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		6F85509A1C14DC6600457B02 /* SchoolWebViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoolWebViewViewController.h; sourceTree = "<group>"; };
 		6F85509B1C14DC6600457B02 /* SchoolWebViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoolWebViewViewController.m; sourceTree = "<group>"; };
+		6F8F47DF1C165689008D39EB /* paper-plane-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "paper-plane-7.png"; sourceTree = "<group>"; };
+		6F8F47E11C1656CA008D39EB /* book-cover-tick-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "book-cover-tick-7.png"; sourceTree = "<group>"; };
+		6F8F47E31C165C2E008D39EB /* VJTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VJTabBarController.h; sourceTree = "<group>"; };
+		6F8F47E41C165C2E008D39EB /* VJTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VJTabBarController.m; sourceTree = "<group>"; };
 		F412380B1C152D020040C85A /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		F412380C1C152D020040C85A /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		F412380E1C152D610040C85A /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
@@ -89,12 +96,14 @@
 				F41238151C152E110040C85A /* VJSplitViewController.m */,
 				F41238111C152D9B0040C85A /* MasterViewController.h */,
 				F41238121C152D9B0040C85A /* MasterViewController.m */,
-				F412380E1C152D610040C85A /* FirstViewController.h */,
-				F412380F1C152D610040C85A /* FirstViewController.m */,
 				F412380B1C152D020040C85A /* DetailViewController.h */,
 				F412380C1C152D020040C85A /* DetailViewController.m */,
+				F412380E1C152D610040C85A /* FirstViewController.h */,
+				F412380F1C152D610040C85A /* FirstViewController.m */,
 				6F85509A1C14DC6600457B02 /* SchoolWebViewViewController.h */,
 				6F85509B1C14DC6600457B02 /* SchoolWebViewViewController.m */,
+				6F8F47E31C165C2E008D39EB /* VJTabBarController.h */,
+				6F8F47E41C165C2E008D39EB /* VJTabBarController.m */,
 				4D9429A91C0A32B100DA5DE3 /* MapKit.framework */,
 				4D0B98841C0532580078E483 /* MyClassroom */,
 				4D0B98A11C0532580078E483 /* MyClassroomUITests */,
@@ -119,6 +128,8 @@
 				4D0B988B1C0532580078E483 /* ViewController.h */,
 				4D0B988C1C0532580078E483 /* ViewController.m */,
 				4D0B988E1C0532580078E483 /* Main.storyboard */,
+				6F8F47E11C1656CA008D39EB /* book-cover-tick-7.png */,
+				6F8F47DF1C165689008D39EB /* paper-plane-7.png */,
 				F41238171C1530C80040C85A /* information-icon-md.png */,
 				4D0B98941C0532580078E483 /* Assets.xcassets */,
 				4D0B98961C0532580078E483 /* LaunchScreen.storyboard */,
@@ -236,6 +247,8 @@
 				F41238181C1530C80040C85A /* information-icon-md.png in Resources */,
 				4D0B98981C0532580078E483 /* LaunchScreen.storyboard in Resources */,
 				4D0B98951C0532580078E483 /* Assets.xcassets in Resources */,
+				6F8F47E21C1656CA008D39EB /* book-cover-tick-7.png in Resources */,
+				6F8F47E01C165689008D39EB /* paper-plane-7.png in Resources */,
 				4D0B98901C0532580078E483 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +276,7 @@
 				6F85509C1C14DC6600457B02 /* SchoolWebViewViewController.m in Sources */,
 				4D0B98871C0532580078E483 /* main.m in Sources */,
 				F412380D1C152D020040C85A /* DetailViewController.m in Sources */,
+				6F8F47E51C165C2E008D39EB /* VJTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
