@@ -35,8 +35,12 @@
     
     UIImageView *imgview = [[UIImageView alloc]
                             initWithFrame:CGRectMake(0, 0, 700, 700)];
-    [imgview setImage:[UIImage imageNamed:@"ColoredMap.jpg"]];
+    [imgview setImage:[UIImage imageNamed:@"ColoredMap.png"]];
     [imgview setContentMode:UIViewContentModeScaleAspectFit];
+    [imgview setUserInteractionEnabled:YES];
+    UITapGestureRecognizer *singleTap =  [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(singleTapping:)];
+    [singleTap setNumberOfTapsRequired:2];
+    [imgview addGestureRecognizer:singleTap];
     [self.view addSubview:imgview];
     
     
@@ -47,14 +51,20 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
+
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
+
+-(void)singleTapping:(UIGestureRecognizer *)recognizer
+{
+    NSLog(@"image click");
+    
+}
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
 }
-*/
+
 
 @end
