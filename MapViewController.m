@@ -34,12 +34,12 @@
     
     
     UIImageView *imgview = [[UIImageView alloc]
-                            initWithFrame:CGRectMake(0, 0, 700, 700)];
+                            initWithFrame:CGRectMake(0, 0, 500, 500)];
     [imgview setImage:[UIImage imageNamed:@"ColoredMap.png"]];
     [imgview setContentMode:UIViewContentModeScaleAspectFit];
     [imgview setUserInteractionEnabled:YES];
     UITapGestureRecognizer *singleTap =  [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(singleTapping:)];
-    [singleTap setNumberOfTapsRequired:2];
+    [singleTap setNumberOfTapsRequired:1];
     [imgview addGestureRecognizer:singleTap];
     [self.view addSubview:imgview];
     

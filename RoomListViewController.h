@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface RoomListViewController : UITableViewController
-
+@property (weak, nonatomic) NSArray *tableData;
 @end
