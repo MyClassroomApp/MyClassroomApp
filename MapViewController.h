@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface MapViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UIImageView *mapImage;
+//@property (weak, nonatomic) IBOutlet UIImageView *mapImage;
 
 @end

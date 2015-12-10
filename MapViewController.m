@@ -10,6 +10,8 @@
 
 @interface MapViewController ()
 
+@property (weak, nonatomic) IBOutlet UIButton *mapButton;
+
 @end
 
 @implementation MapViewController
