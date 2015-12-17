@@ -20,7 +20,8 @@
 		4D9429AA1C0A32B100DA5DE3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D9429A91C0A32B100DA5DE3 /* MapKit.framework */; };
 		4DDBBCB51C17D57B00AEAA06 /* ColoredMap.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DDBBCB41C17D57B00AEAA06 /* ColoredMap.png */; };
 		4DDBBCB81C17DF2700AEAA06 /* NavMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DDBBCB71C17DF2700AEAA06 /* NavMapViewController.m */; };
-		4DE5A3251C19C17C00BAE5A0 /* MapNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE5A3241C19C17C00BAE5A0 /* MapNavViewController.m */; };
+		4DFFF5751C22E665007E4B05 /* SplashScreenMyClassroom copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DFFF5731C22E665007E4B05 /* SplashScreenMyClassroom copy.jpg */; };
+		4DFFF5761C22E665007E4B05 /* SplashScreenMyClassroom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DFFF5741C22E665007E4B05 /* SplashScreenMyClassroom.jpg */; };
 		6F85509C1C14DC6600457B02 /* SchoolWebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F85509B1C14DC6600457B02 /* SchoolWebViewViewController.m */; };
 		6F8F47E01C165689008D39EB /* paper-plane-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F8F47DF1C165689008D39EB /* paper-plane-7.png */; };
 		6F8F47E21C1656CA008D39EB /* book-cover-tick-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F8F47E11C1656CA008D39EB /* book-cover-tick-7.png */; };
@@ -67,8 +68,8 @@
 		4DDBBCB41C17D57B00AEAA06 /* ColoredMap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ColoredMap.png; sourceTree = "<group>"; };
 		4DDBBCB61C17DF2700AEAA06 /* NavMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavMapViewController.h; sourceTree = "<group>"; };
 		4DDBBCB71C17DF2700AEAA06 /* NavMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavMapViewController.m; sourceTree = "<group>"; };
-		4DE5A3231C19C17C00BAE5A0 /* MapNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapNavViewController.h; sourceTree = "<group>"; };
-		4DE5A3241C19C17C00BAE5A0 /* MapNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapNavViewController.m; sourceTree = "<group>"; };
+		4DFFF5731C22E665007E4B05 /* SplashScreenMyClassroom copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "SplashScreenMyClassroom copy.jpg"; sourceTree = "<group>"; };
+		4DFFF5741C22E665007E4B05 /* SplashScreenMyClassroom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SplashScreenMyClassroom.jpg; sourceTree = "<group>"; };
 		6F85509A1C14DC6600457B02 /* SchoolWebViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoolWebViewViewController.h; sourceTree = "<group>"; };
 		6F85509B1C14DC6600457B02 /* SchoolWebViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoolWebViewViewController.m; sourceTree = "<group>"; };
 		6F8F47DF1C165689008D39EB /* paper-plane-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "paper-plane-7.png"; sourceTree = "<group>"; };
@@ -128,8 +129,6 @@
 				6F8F47E41C165C2E008D39EB /* VJTabBarController.m */,
 				4DDBBCB61C17DF2700AEAA06 /* NavMapViewController.h */,
 				4DDBBCB71C17DF2700AEAA06 /* NavMapViewController.m */,
-				4DE5A3231C19C17C00BAE5A0 /* MapNavViewController.h */,
-				4DE5A3241C19C17C00BAE5A0 /* MapNavViewController.m */,
 				4D9429A91C0A32B100DA5DE3 /* MapKit.framework */,
 				4D0B98841C0532580078E483 /* MyClassroom */,
 				4D0B98A11C0532580078E483 /* MyClassroomUITests */,
@@ -155,6 +154,8 @@
 				4D0B988C1C0532580078E483 /* ViewController.m */,
 				4DDBBCB41C17D57B00AEAA06 /* ColoredMap.png */,
 				4D0B988E1C0532580078E483 /* Main.storyboard */,
+				4DFFF5731C22E665007E4B05 /* SplashScreenMyClassroom copy.jpg */,
+				4DFFF5741C22E665007E4B05 /* SplashScreenMyClassroom.jpg */,
 				6F8F47E11C1656CA008D39EB /* book-cover-tick-7.png */,
 				6F8F47DF1C165689008D39EB /* paper-plane-7.png */,
 				F41238171C1530C80040C85A /* information-icon-md.png */,
@@ -275,6 +276,8 @@
 			files = (
 				F41238181C1530C80040C85A /* information-icon-md.png in Resources */,
 				4D0B98981C0532580078E483 /* LaunchScreen.storyboard in Resources */,
+				4DFFF5751C22E665007E4B05 /* SplashScreenMyClassroom copy.jpg in Resources */,
+				4DFFF5761C22E665007E4B05 /* SplashScreenMyClassroom.jpg in Resources */,
 				6FF6A1A91C1750A6003F92EA /* ColoredMap1.jpg in Resources */,
 				4D0B98951C0532580078E483 /* Assets.xcassets in Resources */,
 				6FF6A1AA1C1750A6003F92EA /* Map.jpg in Resources */,
@@ -300,7 +303,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D0B988D1C0532580078E483 /* ViewController.m in Sources */,
-				4DE5A3251C19C17C00BAE5A0 /* MapNavViewController.m in Sources */,
 				4D0B98931C0532580078E483 /* MyClassroom.xcdatamodeld in Sources */,
 				F41238101C152D610040C85A /* FirstViewController.m in Sources */,
 				F41238161C152E110040C85A /* VJSplitViewController.m in Sources */,
